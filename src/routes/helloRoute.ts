@@ -7,6 +7,5 @@ routes.get("/", (req, res) => {
       message: `server running on localhost:${process.env.SERVER_PORT}`,
     });
 });
-
   
 export default routes;
